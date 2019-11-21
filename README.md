@@ -44,7 +44,7 @@ There are four parameters in our model: restart probability *r*, weighting param
     python calculate_predict_all.py 0.5 0.4 0.1 0.7
    ```
     
-    where `a=0.5 b=0.4 c=0.1 r=0.7`
+   where `a=0.5 b=0.4 c=0.1 r=0.7`
   - **Output**   
     The output includes following documents:  
     *---Final_matrix_a_b_c_r.txt* which contains the main result
