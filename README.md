@@ -33,16 +33,16 @@ There are four parameters in our model: restart probability *r*, weighting param
   
    You can implement the code as follows:
    
-    ```sh
+   ```sh
     python calculate_predict_all.py [a] [b] [c] [r]
-    ```
+   ```
     
-    It should be noticed that `a+b+c=1, r<1`.
-    For instance:
+   It should be noticed that `a+b+c=1, r<1`.
+   For instance:
     
-    ```sh
+   ```sh
     python calculate_predict_all.py 0.5 0.4 0.1 0.7
-    ```
+   ```
     
     where `a=0.5 b=0.4 c=0.1 r=0.7`
   - **Output**   
