@@ -28,7 +28,9 @@ This text you see here includes supplementary codes and sample data. We will sho
 There are four parameters in our model: restart probability *r*, weighting parameters of disease, target protein and drug *a*, *b* and *c* (the sum of *a*, *b* and *c* shall be 1), which control the impact of disease, protein and drug nodes in both initial and transmission process.
 
 **Implementation**
+
   - **Protocal**
+  
    You can implement the code as follows:
     ```sh
     python calculate_predict_all.py [a] [b] [c] [r]
@@ -42,7 +44,9 @@ There are four parameters in our model: restart probability *r*, weighting param
   - **Output**   
     The output includes following documents:  
     *---Final_matrix_a_b_c_r.txt* which contains the main result
+    
     *---process_a_b_c_r.txt*   which records the process
+    
    The *Final_matrix_a_b_c_r.txt* contains the resulting probability matrix, in which rows and columns follow the sorted order of disease, protein and durg which are sorted in input files.Based on this matrix, the probability that the drug will appraoch corresponding disease could be obtained.
 
 It should be mentioned that if you want to change the absolute path of input data,it should be correctly specified in original file.
